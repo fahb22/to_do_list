@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    background-image: url('../images/todolist.jpg'); /* Caminho para a imagem */ 
+    background-size: cover; /* Cobrir toda a área */
+    background-position: 90% center; /* Mover mais para a direita */
+    background-repeat: no-repeat; /* Não repetir a imagem */
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background: #f8f9fa;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+li button {
+    background-color: #dc3545;
+}
+
+li button:hover {
+    background-color: #c82333;
+}
+
+input {
+    width: 100%; /* Largura total do campo */
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc; /* Adiciona a borda a todos os inputs */
+    border-radius: 4px; /* Bordas arredondadas */
+    box-sizing: border-box; /* Garante que o padding esteja incluído na largura total */
+}
+
+#app {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px; /* Largura da div */
+}
